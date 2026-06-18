@@ -199,6 +199,7 @@ if __name__ == "__main__":
     tg.calculate_slope()
     cost_map = tg.generate_cost_map()
 
+    # 5. Output Summary of Terrain Data
     height_matrix = tg.terrain
     print(f"[DATA] Height Matrix Shape: {height_matrix.shape}")
     print(height_matrix)
